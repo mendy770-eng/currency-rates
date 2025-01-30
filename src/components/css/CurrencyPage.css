@@ -1,0 +1,56 @@
+.currency-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden; 
+    padding: 20px;
+    text-align: center;
+}
+
+.currency-page h1 {
+    flex-shrink: 0; 
+    margin-bottom: 10px;
+}
+
+.currency-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 400px;
+    max-height: 60vh; 
+    min-height: 100px;
+    margin-bottom: 10px; 
+}
+
+.currency-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.currency-page li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    flex-shrink: 0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
